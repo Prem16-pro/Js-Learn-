@@ -1,0 +1,17 @@
+const acc_Id = 1223334444
+let acc_Email = "Prem@gugle.com" //Should use instead of var
+var acc_Pass = "Poop" // Never use cause has problem with Block Scope
+acc_city = "Jamnagar"
+// acc_Id =  123 //This is not allowed after a variable is set as "const" : Constant {can Never Change value of it}
+
+acc_Email="hello@hl.com"
+acc_Pass="123"
+acc_city="Delhi"
+let acc_state//Shows as undefined in terminal if not given any value
+
+/*
+comment doesn't interfere with code 2 types 
+// & /* */
+console.log(acc_Id);
+
+console.table([acc_Id,acc_Email,acc_Pass,acc_city,acc_state]);
