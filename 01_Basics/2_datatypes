@@ -1,0 +1,28 @@
+"use strict"; //Js code will run with latest code syntax
+
+// alert( 3+3) shows 6 in browser inspect console but cant be run on nodejs
+
+/* Make code always readable for Future Purposes */
+
+/* number => 2 to the power 53 is range
+   if even bigger no. is to be saved we use 
+   bigint 
+
+   string => ""
+   boolean => true/false
+   null => standalone value
+   undefined
+
+   object
+*/
+
+console.log(typeof null); //object is output
+console.log(typeof undefined); // undefined is output
+
+/* ECMA Standards Find at : tc39.es/ecma262/#sec-intro 
+   For Original Documentation of functions datatypes etc in above link
+   OR
+   simply search mdn with regarded function/datatype
+
+   for javascript.
+*/
