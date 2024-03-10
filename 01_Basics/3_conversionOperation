@@ -1,0 +1,30 @@
+let score = "33abc"
+
+let v=Number(score)
+//console.log(typeof v)
+//console.log(v)
+
+//for Number() function conversion
+// "33" => 33 ty: number
+// "33abc" => Nan {Not a Number} ty: number
+// "null" => 0 ty: no.
+// "undefined" => NaN 
+// true => 1 ; false => 0 
+
+let isbool = "anyString"
+let boole = Boolean(isbool)
+//console.log(boole)
+
+// for Boolean() Function
+// 1 => true : 0 => false
+// "" => false (empty string)
+// "anyString" => true
+
+let isnum = true
+let istr = String(isnum)
+console.log(istr)
+console.log(typeof istr)
+
+//For String()
+// 33 => "33"
+// true => "true" : false => "false"
